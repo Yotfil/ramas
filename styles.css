@@ -1,33 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
 }
 
+/* body {
+  font-size: 16px;
+} */
+
 header {
-    width: 100%;
+  width: 100%;
 }
 
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 20px 0px 20px;
-    height: 70px;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(59, 117, 207, 1) 50%, rgba(0, 0, 0, 1) 100%);
-    color: azure;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  height: 70px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(59, 117, 207, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: azure;
+  align-items: center;
 }
-.buttons ul{
-    display: flex;
-    flex-direction: row;
+.buttons ul {
+  display: flex;
+  flex-direction: row;
 }
-.buttons ul li{
-    padding: 10px;
+.buttons ul li {
+  padding: 10px;
 }
-.buttons ul li a{
-    color: azure;
+.buttons ul li a {
+  color: azure;
 }
+
+/* .header__container {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(207, 59, 59) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+} */
+
+
+.my-container{
+    font-size: 24px;
+}
+
+/* 
+.my-p {
+  font-size: 1rem;
+} */
+
+/* @media (max-width: 810px) {
+  body {
+    font-size: 14px;
+    background-color: red;
+  }
+} */
+/* @media (min-width: 768px){
+    .my-p {
+        color: red;
+    }
+} */
